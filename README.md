@@ -155,7 +155,7 @@ belong to a specific class and not to any object
 class Person:
     number_of_people = 0
 
-    def __init__(selff, name):
+    def __init__(self, name):
         self.name = name 
         Person.add_person()
 
@@ -176,3 +176,5 @@ print(Person.number_of_people_())
 A static method in Python is a method inside a class that does not depend on an instance of the class. It behaves like a regular function but belongs to the class's namespace.
 
 Static methods:  Do not modify or access instance (self) or class (cls) attributes.
+
+![](oops_training_files/Static_method_example.png)

@@ -87,7 +87,7 @@ print()
 class Person:
     number_of_people = 0
 
-    def __init__(selff, name):
+    def __init__(self, name):
         self.name = name 
         Person.add_person()
 
